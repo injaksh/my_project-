@@ -323,6 +323,13 @@ body{
     z-index: -1;
     right: -150px;
 }
+@media (max-width: 991px){
+    .about .about-content .image::after{
+        border-left: 100px solid var(--main-color);
+        height: calc(100% + 80px);
+        border-bottom: none ;
+    }
+}
 .about .about-content .image img  {
     max-width: 100%;
 }
